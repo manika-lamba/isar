@@ -186,13 +186,13 @@ activities:
 
 ## ISAR COMPONENTS (Cont.)
 
--   Knowledge Representation
-    -   Semantic Network Knowledge Representation - A semantic network
+(i) Knowledge Representation
+    a.  Semantic Network Knowledge Representation - A semantic network
         contains points called nodes connected by links called as arcs
-    -   Frame Based Knowledge Representation - It is and object-oriented
+    b.  Frame Based Knowledge Representation - It is and object-oriented
         approach. A *frame* represents an object (document or
         information) or class of objects and are stored in *slots*
-    -   Rule-Based Knowledge Representation - Rules provide a formal way
+    c.  Rule-Based Knowledge Representation - Rules provide a formal way
         of representing recommendations, directives, or strategies.
         Rules are appropriate when the domain knowledge results from
         empirical associations developed through years of experience in
@@ -211,10 +211,10 @@ matches the facts.
 
 ## ISAR COMPONENTS (Cont.)
 
--   Indexing & clustering - Many system follow a kind of keyword
-    indexing. Keyword indexes are sometimes good in recall not in
-    precision and in some cases vice-versa.Such indexes fail in
-    preserving the context of search term. Eg. World Wide Web
+(ii) Indexing & clustering - Many system follow a kind of keyword
+     indexing. Keyword indexes are sometimes good in recall not
+     inprecision and in some cases vice-versa.Such indexes fail in
+     preserving the context of search term. Eg. World Wide Web
 
 Efforts have made in this direction such as using clustering techniques
 like keyword clustering to attach semantics with a keyword. In such a
@@ -240,11 +240,13 @@ using B-tree structures.
 ::: columns
 ::: {.column width="50%"}
 1.  **Boolean Operators**
+
 -   Three Boolean operators are AND, OR and NOT
 
 -   These operators are used to generate combinational search
 
--   AND and NOT operators increase precision whereas OR increases recall of search results
+-   AND and NOT operators increase precision whereas OR increases recall
+    of search results
 :::
 
 ::: {.column width="50%"}
@@ -252,6 +254,69 @@ using B-tree structures.
 :::
 :::
 
+## TYPES OF SEARCH TECHNIQUES (Cont.)
+
+2.  **Context Setting**
+
+-   It requires content analysis of document
+
+-   It can be done manually or automatically to preserve the context of
+    each term in the index. It can be done in two ways:
+
+    a.  Conceptual Analysis: It is the frequency of concepts. Concept
+        can be represented by texts as well as pictures where text is
+        very common. For example, if one is analyzing with a hypothesis
+        that a certain document is about *freedom* then one should look
+        for the related words like *liberation, independence*, etc.
+
+## TYPES OF SEARCH TECHNIQUES (Cont.)
+
+b.  Relational Analysis: It goes one step further by examining the
+    relationships among concepts in a text. In relational analysis we
+    look for what are the related words appearing next to the word in
+    question. For example, to see what are the words that appear next to
+    "freedom" and then determine the related concepts
+
+```{=html}
+<!-- -->
+```
+3.  **Clustering Algorithms**
+
+-   Clustering is a method by which large sets of data is grouped into
+    groups or clusters of smaller sets of similar data based on some
+    characteristics
+
+## TYPES OF SEARCH TECHNIQUES (Cont.)
+
+-   It attempts to identify natural groups of components or data based
+    on some similarity in a given population.
+
+-   It is a method to create sub-class in a given class
+
+-   The first thing in such algorithms are identification of core entity
+    which is also known as centroid
+
+-   Around centroid similar kind of entities or data are collected which
+    are called as members of cluster
+
+-   To determine cluster membership and size, most algorithms evaluate
+    the distance between each entity or data and the cluster centroids
+
+## TYPES OF SEARCH TECHNIQUES (Cont.)
+
+-   Statistical techniques are used for generating clusters as output
+
+![](images/clustering.png){fig-align="center" width="1000"}
+
+## TYPES OF SEARCH TECHNIQUES (Cont.)
+
+4. Soundex & Metaphone Algorithms
+
+- Both these algorithms are based in the way pronunciation of a word is made 
+
+- In soundex algorithm, a numeric code is assigned to each character used in a word and when search is performed, words with similar codes are also brought out in search result
+
+- Whereas in metaphine
 
 ## ISAR FUNCTIONS
 

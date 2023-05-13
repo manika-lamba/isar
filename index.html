@@ -450,14 +450,14 @@
 </section>
 <section id="isar-components-cont.-1" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>ISAR COMPONENTS (Cont.)</h2>
-<ul>
+<ol type="i">
 <li>Knowledge Representation
-<ul>
+<ol type="a">
 <li>Semantic Network Knowledge Representation - A semantic network contains points called nodes connected by links called as arcs</li>
 <li>Frame Based Knowledge Representation - It is and object-oriented approach. A <em>frame</em> represents an object (document or information) or class of objects and are stored in <em>slots</em></li>
 <li>Rule-Based Knowledge Representation - Rules provide a formal way of representing recommendations, directives, or strategies. Rules are appropriate when the domain knowledge results from empirical associations developed through years of experience in</li>
-</ul></li>
-</ul>
+</ol></li>
+</ol>
 </section>
 <section id="isar-components-cont.-2" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>ISAR COMPONENTS (Cont.)</h2>
@@ -465,9 +465,9 @@
 </section>
 <section id="isar-components-cont.-3" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>ISAR COMPONENTS (Cont.)</h2>
-<ul>
-<li>Indexing &amp; clustering - Many system follow a kind of keyword indexing. Keyword indexes are sometimes good in recall not in precision and in some cases vice-versa.Such indexes fail in preserving the context of search term. Eg. World Wide Web</li>
-</ul>
+<ol start="2" type="i">
+<li>Indexing &amp; clustering - Many system follow a kind of keyword indexing. Keyword indexes are sometimes good in recall not inprecision and in some cases vice-versa.Such indexes fail in preserving the context of search term. Eg. World Wide Web</li>
+</ol>
 <p>Efforts have made in this direction such as using clustering techniques like keyword clustering to attach semantics with a keyword. In such a technique, relation among the terms are used like Broader term, Narrower term and Related term. This technique heavily uses Thesaurus. Such relations can be stored in the form of sequential inverted files or using B-tree structures.</p>
 </section>
 <section id="isar-components-cont.-4" class="slide level2" data-background-image="background.svg" data-background-size="contain">
@@ -505,6 +505,60 @@
 </div>
 </div>
 </div>
+</section>
+<section id="types-of-search-techniques-cont." class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>TYPES OF SEARCH TECHNIQUES (Cont.)</h2>
+<ol start="2" type="1">
+<li><strong>Context Setting</strong></li>
+</ol>
+<ul>
+<li><p>It requires content analysis of document</p></li>
+<li><p>It can be done manually or automatically to preserve the context of each term in the index. It can be done in two ways:</p>
+<ol type="a">
+<li>Conceptual Analysis: It is the frequency of concepts. Concept can be represented by texts as well as pictures where text is very common. For example, if one is analyzing with a hypothesis that a certain document is about <em>freedom</em> then one should look for the related words like <em>liberation, independence</em>, etc.</li>
+</ol></li>
+</ul>
+</section>
+<section id="types-of-search-techniques-cont.-1" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>TYPES OF SEARCH TECHNIQUES (Cont.)</h2>
+<ol start="2" type="a">
+<li>Relational Analysis: It goes one step further by examining the relationships among concepts in a text. In relational analysis we look for what are the related words appearing next to the word in question. For example, to see what are the words that appear next to “freedom” and then determine the related concepts</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li><strong>Clustering Algorithms</strong></li>
+</ol>
+<ul>
+<li>Clustering is a method by which large sets of data is grouped into groups or clusters of smaller sets of similar data based on some characteristics</li>
+</ul>
+</section>
+<section id="types-of-search-techniques-cont.-2" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>TYPES OF SEARCH TECHNIQUES (Cont.)</h2>
+<ul>
+<li><p>It attempts to identify natural groups of components or data based on some similarity in a given population.</p></li>
+<li><p>It is a method to create sub-class in a given class</p></li>
+<li><p>The first thing in such algorithms are identification of core entity which is also known as centroid</p></li>
+<li><p>Around centroid similar kind of entities or data are collected which are called as members of cluster</p></li>
+<li><p>To determine cluster membership and size, most algorithms evaluate the distance between each entity or data and the cluster centroids</p></li>
+</ul>
+</section>
+<section id="types-of-search-techniques-cont.-3" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>TYPES OF SEARCH TECHNIQUES (Cont.)</h2>
+<ul>
+<li>Statistical techniques are used for generating clusters as output</li>
+</ul>
+
+<img data-src="images/clustering.png" width="1000" class="r-stretch quarto-figure-center"></section>
+<section id="types-of-search-techniques-cont.-4" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>TYPES OF SEARCH TECHNIQUES (Cont.)</h2>
+<ol start="4" type="1">
+<li>Soundex &amp; Metaphone Algorithms</li>
+</ol>
+<ul>
+<li><p>Both these algorithms are based in the way pronunciation of a word is made</p></li>
+<li><p>In soundex algorithm, a numeric code is assigned to each character used in a word and when search is performed, words with similar codes are also brought out in search result</p></li>
+<li><p>Whereas in metaphine</p></li>
+</ul>
 </section>
 <section id="isar-functions" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>ISAR FUNCTIONS</h2>
