@@ -277,9 +277,8 @@ b.  Relational Analysis: It goes one step further by examining the
     question. For example, to see what are the words that appear next to
     "freedom" and then determine the related concepts
 
-```{=html}
 <!-- -->
-```
+
 3.  **Clustering Algorithms**
 
 -   Clustering is a method by which large sets of data is grouped into
@@ -310,13 +309,18 @@ b.  Relational Analysis: It goes one step further by examining the
 
 ## TYPES OF SEARCH TECHNIQUES (Cont.)
 
-4. Soundex & Metaphone Algorithms
+4.  Soundex & Metaphone Algorithms
 
-- Both these algorithms are based in the way pronunciation of a word is made 
+-   Both these algorithms are based in the way pronunciation of a word
+    is made
 
-- In soundex algorithm, a numeric code is assigned to each character used in a word and when search is performed, words with similar codes are also brought out in search result
+-   In soundex algorithm, a numeric code is assigned to each character
+    used in a word and when search is performed, words with similar
+    codes are also brought out in search result
 
-- Whereas metaphone algorithm encodes on letter-by-letter basis. It encodes groups of letters i.e. a word. It embodies more accuratelt the rules of pronounciation in language
+-   Whereas metaphone algorithm encodes on letter-by-letter basis. It
+    encodes groups of letters i.e. a word. It embodies more accuratelt
+    the rules of pronounciation in language
 
 ## ISAR FUNCTIONS
 
@@ -389,17 +393,60 @@ For example: Records of books' authors, title, publisher, year, etc
 5.  Knowledge Based System (KBS)
 
 -   Specialized computer programs, modeled in the same way as human
-    experts tackle problems and arrive at solutions are called Expert Systems
+    experts tackle problems and arrive at solutions are called Expert
+    Systems
 
--   Such systems rely upon a store of specialized knowledge for solving problems and hence referred to as KBCS
+-   Such systems rely upon a store of specialized knowledge for solving
+    problems and hence referred to as KBCS
 
 ## EVALUATION OF ISAR SYSTEMS
 
-According to Claverdon and others, any ISAR system can be evaluated based on:
+According to Claverdon and others, any ISAR system can be evaluated
+based on:
 
-- Coverage of the collections
-- Time lag (average interval between search request is made and answer is given)
-- Form of Presentation of the Output
-- Efforts involved in 
+-   Coverage of the collections
+-   Time lag (average interval between search request is made and answer
+    is given)
+-   Form of Presentation of the Output
+-   Efforts involved on user's part in obtaining answers to their search
+    requests
+-   Recall of the system, that is, the proportion of relevant material
+    actually retrieved in answer to a search request
+-   Precision of the system, that is, the proportion of retrieved
+    material that is actually relevant
+
+## EVALUATION OF ISAR SYSTEMS (Cont.)
+
+![](images/evaluation.png){fig-align="center" width="1000"}
+
+## EXAMPLES OF ISAR SYSTEMS
+
+1. OPAC: Library catalogue has changed its form to the electronic form with the advent of computerisation called OPAC. OPAC provides access to the documents by different approaches of
+users, such as Author, Collaborator, Title, Subject, Keyword, etc. An OPAC is
+built on DBMS
+2. Digital Library: OPAC only provides bibliographic details not full-text information. This limitation led to development of full-text databases in
+digital form. This kind of database is known as Digital Library. Digital libraries
+are available over network often using World Wide Web
+
+## EXAMPLES OF ISAR SYSTEMS (Cont.)
+
+3. Search Engines: WWW is itself is a big source of information. Almost everything and anything
+can be found over Internet. Search Engines provide a kind of interface for users to search the web. A Search Engine basically has three components:
+
+   - Web Crawler
+   - Database
+   - Agent
+
+## EXAMPLES OF ISAR SYSTEMS (Cont.)
+
+- Web Crawler goes to each and every site over Internet and indexes each word present in the page or sometimes few lines from the page. This index is stored in search engines database with corresponding URL (Uniform Resource Locator). When a search query is given it searches in databases of search engine and result is generated
+
+- Search Engines can be categorised into three main types:
+
+    - Individual Search Engines - text or image based search engine, for example, Google (www.google.com)
     
- 
+## EXAMPLES OF ISAR SYSTEMS (Cont.)
+
+- Search Engines
+     - Subject Directories - subject-based search engines, for example, Yahoo! (www.yahoo.com)
+     - Meta-search Engines - search engine of search engines, for example, Askjeeves (www.askjeeves.com)
