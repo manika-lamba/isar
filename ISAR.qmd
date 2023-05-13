@@ -1,5 +1,5 @@
 ---
-title: Information Storage and Retrieval System (ISAR) -  Types, Operations, & Design
+title: Information Storage and Retrieval System (ISAR)
 subtitle: |
   **[Paper-M-108]{.orange}**
 author: |
@@ -503,19 +503,100 @@ checking each character as it is entered on the keyboard, or when searching text
 
 ## INFORMATION RETRIEVAL MODELS
 
-1.  
+- On the basis of input and the output, Information Retrieval Models can be grouped into three basic categories:
+
+1. Data Retrieval Model
+
+-- Data retrieval model essentially handles data
+
+-- A data retrieval model calls for organisational structure
+based on various criteria such as properties, clusters and other different entities
+
+-- There is a need for a taxonomic presentation of these aspects.
+
+## INFORMATION RETRIEVAL MODELS (Cont.)
+
+-- Such a taxonomic
+presentation must also be accessible from other types of associations
+
+-- A searcher of a data comes for a specific information retrieval. Therefore, the expression
+of information need should be very precise
+
+-- Therefore, the data retrieval model is a simple model of information retrieval needing specific matching techniques
+viz., a taxonomic structure of the various entities involved and their properties.
+
+## INFORMATION RETRIEVAL MODELS (Cont.)
+
+2. Information Retrieval Model
+
+-- Information is data oriented to a purpose
+
+-- It actually combines several data into a relational structure 
+
+-- It is a more complex model
+
+-- It has to generally comprehend multi-dimensional relationships
+
+-- It is not amenable
+easily to a taxonomic structure
+
+## INFORMATION RETRIEVAL MODELS (Cont.)
+
+-- The representation of information is to be based
+on a relational database structure using some associative mathematics
+
+-- The expression of information need is also complex and time consuming
+
+-- It draws out for a long conversational or browsing process and the information retrieval model must incorporate such facilities and interfaces
+
+## INFORMATION RETRIEVAL MODELS (Cont.)
+
+3. Knowledge Retrieval Model
+
+-- Knowledge is a kind of integration of general types of information
+
+-- It normally occurs in the human mind. The human mind infers and integrates several coordinates with the information received by it
+
+-- So, knowledge is assimilated
+information. In order to facilitate decision-making and problem solving, intelligent
+knowledge based information retrieval models are coming up
+
+## INFORMATION RETRIEVAL MODELS (Cont.)
+
+-- Such systems
+comprise three basic aspects:
+
+- Knowledge Base
+- Inference Engine
+- User Interface
+
+## IR MODELS BASED ON THEORIES & TOOLS
 
 ## PREVIOUS YEAR QUESTIONS
 
-Q1: Explain the various components of ISAR
+::: columns
+::: {.column width="50%"}
+#### Long Questions (12.5 Marks Each)
+
+Q1: Explain the various components of ISAR 
 
 Q2: Discuss with suitable examples the various types of search
-techniques
+techniques 
 
-Q3: Explain the need for evaluation of ISAR. Examine, by giving examples, the criteria which will be used for its evaluation
+Q3: Explain the need for **evaluation** of ISAR. Examine, by giving examples, the criteria which will be used for its evaluation
 
-#### Short Notes
+
+:::
+
+
+::: {.column width="50%"}
+
+Q4: Discuss the various models of Information Retrieval with suitable examples
+
+#### Short Notes (5 Marks Each)
 
 -   Precision & Recall
--   Evaluation of IRS
+-   **Evaluation** of IRS
 -   Information Retrieval Models
+:::
+:::
