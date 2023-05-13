@@ -470,107 +470,186 @@ based on:
 
 ## IR SEARCHING TECHNIQUES
 
--  In bibliographic IR environment, searches can be divided into two main classes: 
+-   In bibliographic IR environment, searches can be divided into two
+    main classes:
 
-(i) **Known item search** is the one where the user knows something about the item being sought such as  author, title, publisher, ISBN, etc.
+(i) **Known item search** is the one where the user knows something
+    about the item being sought such as author, title, publisher, ISBN,
+    etc.
 
-(ii) **Unknown item search** is the one where users are not aware of the existence of any document that may solve their problems.
+(ii) **Unknown item search** is the one where users are not aware of the
+     existence of any document that may solve their problems.
 
 ## IR SEARCHING TECHNIQUES (Cont.)
 
-1. Exact Match Search: The search engine will only match query terms exactly; it does not allow for truncation, wildcards, or stemming. Exact Match option is
-nowadays available in Internet-based databases to retrieve more relevant
-information. Phrase search can be characterized as exact match search, where a phrase is given at the search query that searches whole phrase.
+1.  Exact Match Search: The search engine will only match query terms
+    exactly; it does not allow for truncation, wildcards, or stemming.
+    Exact Match option is nowadays available in Internet-based databases
+    to retrieve more relevant information. Phrase search can be
+    characterized as exact match search, where a phrase is given at the
+    search query that searches whole phrase.
 
-2. Best Match Search: In best match search, the search engine will match query terms closely, if not exactly. It may allow for truncation, wildcards, or stemming. Best Match search
-is performed, when exact match could not fetch sufficient number of relevant information.
+2.  Best Match Search: In best match search, the search engine will
+    match query terms closely, if not exactly. It may allow for
+    truncation, wildcards, or stemming. Best Match search is performed,
+    when exact match could not fetch sufficient number of relevant
+    information.
 
 ## IR SEARCHING TECHNIQUES (Cont.)
 
 ::: columns
 ::: {.column width="50%"}
-3. Partial Match Search: A partial match is one that matches one or more characters at the end of the
-text input, but did not match all of the regular expression, although, it may have done so had more input been available. Partial matches are typically used when
-either validating data input, 
+3.  Partial Match Search: A partial match is one that matches one or
+    more characters at the end of the text input, but did not match all
+    of the regular expression, although, it may have done so had more
+    input been available. Partial matches are typically used when either
+    validating data input,
 :::
-
 
 ::: {.column width="50%"}
-![](images/reverse.png)
-checking each character as it is entered on the keyboard, or when searching texts that are either too long to load into memory.
+![](images/reverse.png) checking each character as it is entered on the
+keyboard, or when searching texts that are either too long to load into
+memory.
 :::
 :::
 
-## INFORMATION RETRIEVAL MODELS
+## IR MODELS
 
-- On the basis of input and the output, Information Retrieval Models can be grouped into three basic categories:
+-   On the basis of input and the output, Information Retrieval Models
+    can be grouped into three basic categories:
 
-1. Data Retrieval Model
+1.  Data Retrieval Model
 
 -- Data retrieval model essentially handles data
 
--- A data retrieval model calls for organisational structure
-based on various criteria such as properties, clusters and other different entities
+-- A data retrieval model calls for organisational structure based on
+various criteria such as properties, clusters and other different
+entities
 
 -- There is a need for a taxonomic presentation of these aspects.
 
-## INFORMATION RETRIEVAL MODELS (Cont.)
+## IR MODELS (Cont.)
 
--- Such a taxonomic
-presentation must also be accessible from other types of associations
+-- Such a taxonomic presentation must also be accessible from other
+types of associations
 
--- A searcher of a data comes for a specific information retrieval. Therefore, the expression
-of information need should be very precise
+-- A searcher of a data comes for a specific information retrieval.
+Therefore, the expression of information need should be very precise
 
--- Therefore, the data retrieval model is a simple model of information retrieval needing specific matching techniques
-viz., a taxonomic structure of the various entities involved and their properties.
+-- Therefore, the data retrieval model is a simple model of information
+retrieval needing specific matching techniques viz., a taxonomic
+structure of the various entities involved and their properties.
 
-## INFORMATION RETRIEVAL MODELS (Cont.)
-
-2. Information Retrieval Model
+2.  Information Retrieval Model
 
 -- Information is data oriented to a purpose
 
--- It actually combines several data into a relational structure 
+## IR MODELS (Cont.)
+
+-- It actually combines several data into a relational structure
 
 -- It is a more complex model
 
 -- It has to generally comprehend multi-dimensional relationships
 
--- It is not amenable
-easily to a taxonomic structure
+-- It is not amenable easily to a taxonomic structure
 
-## INFORMATION RETRIEVAL MODELS (Cont.)
-
--- The representation of information is to be based
-on a relational database structure using some associative mathematics
+-- The representation of information is to be based on a relational
+database structure using some associative mathematics
 
 -- The expression of information need is also complex and time consuming
 
--- It draws out for a long conversational or browsing process and the information retrieval model must incorporate such facilities and interfaces
+## IR MODELS (Cont.)
 
-## INFORMATION RETRIEVAL MODELS (Cont.)
+-- It draws out for a long conversational or browsing process and the
+information retrieval model must incorporate such facilities and
+interfaces
 
-3. Knowledge Retrieval Model
+3.  Knowledge Retrieval Model
 
 -- Knowledge is a kind of integration of general types of information
 
--- It normally occurs in the human mind. The human mind infers and integrates several coordinates with the information received by it
+-- It normally occurs in the human mind. The human mind infers and
+integrates several coordinates with the information received by it
 
--- So, knowledge is assimilated
-information. In order to facilitate decision-making and problem solving, intelligent
-knowledge based information retrieval models are coming up
+-- Knowledge is assimilated information. To facilitate decision-making
+and problem solving, intelligent knowledge based IR models are coming up
 
-## INFORMATION RETRIEVAL MODELS (Cont.)
+## IR MODELS (Cont.)
 
--- Such systems
-comprise three basic aspects:
+-- Such systems comprise three basic aspects:
 
-- Knowledge Base
-- Inference Engine
-- User Interface
+-   Knowledge Base
+-   Inference Engine
+-   User Interface
 
 ## IR MODELS BASED ON THEORIES & TOOLS
+
+1.  Boolean Retrieval Model
+
+    -   Standard
+    -   Weighted: Weighting is the process of assigning an importance to
+        an index term's use in an item
+
+2.  Fuzzy Logic Model
+
+-- ISAR has software component that has the features and functions
+required to manipulate 'information' items
+
+-- This information is regarded as fuzzy text
+
+## IR MODELS BASED ON..(Cont.)
+
+-- The term 'fuzzy' is used to imply the results from the minimal
+standards or controls on the creators of the text items
+
+-- The author presents concepts, ideas and abstractions along with
+supporting facts
+
+-- Resulting in minimal consistency in the vocabulary and styles of
+items
+
+-- The searcher has to be omniscient to specify all search term
+possibilities in the query
+
+-- Fuzzy retrieval provide the capability to locate spellings of words
+that are similar to the entered search term. This function is primarily
+used to compensate for errors in spelling of words
+
+## IR MODELS BASED ON..(Cont.)
+
+::: columns
+::: {.column width="50%"}
+-- Fuzzy retrieval increases recall at the expense of decreasing
+precision
+
+-- For example, a fuzzy search on the term 'computer' would
+automatically include the following words from the information database:
+'computer', 'compiter', 'computter', 'compute'
+
+-- Fuzzy retrieval has its maximum utilisation in a
+:::
+
+::: {.column width="50%"}
+-- system that accepts items that have been optical character recognised
+
+-- In OCR process, a hardcopy item is scanned into a binary image
+
+-- Due to character errors throughout the text in OCR process, fuzzy
+retrieval allows location of items of interest compensating for the
+erroneous characters
+:::
+:::
+
+## IR MODELS BASED ON..(Cont.)
+
+3.  Vector Space Model
+
+-- It represents the documents & queries as vectors in a
+multidimensional space, whose dimensions are the terms used to build an
+index to represent the documents
+
+![](images/vector.png){fig-align="center"}
 
 ## PREVIOUS YEAR QUESTIONS
 
@@ -578,20 +657,18 @@ comprise three basic aspects:
 ::: {.column width="50%"}
 #### Long Questions (12.5 Marks Each)
 
-Q1: Explain the various components of ISAR 
+Q1: Explain the various components of ISAR
 
 Q2: Discuss with suitable examples the various types of search
-techniques 
+techniques
 
-Q3: Explain the need for **evaluation** of ISAR. Examine, by giving examples, the criteria which will be used for its evaluation
-
-
+Q3: Explain the need for **evaluation** of ISAR. Examine, by giving
+examples, the criteria which will be used for its evaluation
 :::
 
-
 ::: {.column width="50%"}
-
-Q4: Discuss the various models of Information Retrieval with suitable examples
+Q4: Discuss the various models of Information Retrieval with suitable
+examples
 
 #### Short Notes (5 Marks Each)
 
