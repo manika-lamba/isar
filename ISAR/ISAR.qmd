@@ -178,7 +178,7 @@ For example: Records of books' authors, title, publisher, year, etc
 - They are designed for unstructured data
 such as full text documents
 
-- Queries are usually language based on keywords and a number of advanced search techniques (such as proximity search)
+- Queries are based on keywords and a no. of advanced search techniques (such as proximity search)
 can be used
 
 
@@ -186,7 +186,13 @@ can be used
 
 3. Management Information System (MIS)
 
-- 
+- It is a DBMS designed to cope up with the needs of management professionals who need to have information about different alternatives related to their interest to facilitate their work
+
+4. Decision Support System (DSS)
+
+- DSS helps top-level management in arriving at decisions. There is very little difference betweetn MIS & DSS. The former generated reports in anticipation or on demand and collect facts, whereas later provides alternative solutions
+
+5. 
 
 
 
