@@ -137,6 +137,27 @@ These sub-systems are utilised in the performance of the following activities:
 :::
 :::
 
+## ISAR COMPONENTS (Cont.)
+
+- An ISAR system comprises of following components:
+
+1. **User Interface**: It is the front-end which enables user to put a query and displays results. These are of two types:
+
+    - Query Interface
+    - Result Interface
+  
+2. **Knowledge Base**: The store house of any ISAR system is its Knowledge Base. It contains list of
+facts or related facts (information). Any kind of query is answered based on the facts stored in the Knowledge Base. A Knowledge Base could be a DBMS. Retrieval of information from storage depends on two important aspects of Knowledge Base:
+
+## ISAR COMPONENTS (Cont.)
+
+   - Knowledge Representation
+      - Semantic Network Knowledge Representation - A semantic network contains points called nodes connected by links called as arcs
+   
+   - Indexing  & clustering
+    
+3. 
+
 ## ISAR FUNCTIONS
 
 ::: columns
@@ -190,9 +211,15 @@ can be used
 
 4. Decision Support System (DSS)
 
-- DSS helps top-level management in arriving at decisions. There is very little difference betweetn MIS & DSS. The former generated reports in anticipation or on demand and collect facts, whereas later provides alternative solutions
+- DSS helps top-level management in arriving at decisions. There is very little difference between MIS & DSS. The former generated reports in anticipation or on demand and collect facts, whereas later provides alternative solutions
 
-5. 
+## TYPES OF ISAR SYSTEMS (Cont.)
+
+5. Knowledge Based System (KBS)
+
+- Specialized computer programs, modeled in the same way as human experts tackle problems and arrive at solutions are called Expert Systems
+
+- Such systems rely upon a store of specialized knowledge for solving problems and hence referred to as KBCS
 
 
 
