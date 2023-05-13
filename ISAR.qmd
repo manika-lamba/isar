@@ -476,6 +476,31 @@ based on:
 
 (ii) **Unknown item search** is the one where users are not aware of the existence of any document that may solve their problems.
 
+## IR SEARCHING TECHNIQUES (Cont.)
+
+1. Exact Match Search: The search engine will only match query terms exactly; it does not allow for truncation, wildcards, or stemming. Exact Match option is
+nowadays available in Internet-based databases to retrieve more relevant
+information. Phrase search can be characterized as exact match search, where a phrase is given at the search query that searches whole phrase.
+
+2. Best Match Search: In best match search, the search engine will match query terms closely, if not exactly. It may allow for truncation, wildcards, or stemming. Best Match search
+is performed, when exact match could not fetch sufficient number of relevant information.
+
+## IR SEARCHING TECHNIQUES (Cont.)
+
+::: columns
+::: {.column width="50%"}
+3. Partial Match Search: A partial match is one that matches one or more characters at the end of the
+text input, but did not match all of the regular expression, although, it may have done so had more input been available. Partial matches are typically used when
+either validating data input, 
+:::
+
+
+::: {.column width="50%"}
+![](images/reverse.png)
+checking each character as it is entered on the keyboard, or when searching texts that are either too long to load into memory.
+:::
+:::
+
 ## INFORMATION RETRIEVAL MODELS
 
 1.  
@@ -487,8 +512,7 @@ Q1: Explain the various components of ISAR
 Q2: Discuss with suitable examples the various types of search
 techniques
 
-Q3: Explain the need for evaluation of ISAR. Examine, by giving
-examples, the criteria which will be used for its evaluation
+Q3: Explain the need for evaluation of ISAR. Examine, by giving examples, the criteria which will be used for its evaluation
 
 #### Short Notes
 
