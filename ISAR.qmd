@@ -316,7 +316,7 @@ b.  Relational Analysis: It goes one step further by examining the
 
 - In soundex algorithm, a numeric code is assigned to each character used in a word and when search is performed, words with similar codes are also brought out in search result
 
-- Whereas in metaphine
+- Whereas metaphone algorithm encodes on letter-by-letter basis. It encodes groups of letters i.e. a word. It embodies more accuratelt the rules of pronounciation in language
 
 ## ISAR FUNCTIONS
 
@@ -389,8 +389,17 @@ For example: Records of books' authors, title, publisher, year, etc
 5.  Knowledge Based System (KBS)
 
 -   Specialized computer programs, modeled in the same way as human
-    experts tackle problems and arrive at solutions are called Expert
-    Systems
+    experts tackle problems and arrive at solutions are called Expert Systems
 
--   Such systems rely upon a store of specialized knowledge for solving
-    problems and hence referred to as KBCS
+-   Such systems rely upon a store of specialized knowledge for solving problems and hence referred to as KBCS
+
+## EVALUATION OF ISAR SYSTEMS
+
+According to Claverdon and others, any ISAR system can be evaluated based on:
+
+- Coverage of the collections
+- Time lag (average interval between search request is made and answer is given)
+- Form of Presentation of the Output
+- Efforts involved in 
+    
+ 
