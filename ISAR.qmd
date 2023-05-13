@@ -487,6 +487,11 @@ based on:
 
 # INFORMATION RETRIEVAL {background-color="#438496"}
 
+## What Will You Learn - Part B? {background-color="#438496"}
+
+- Understand different IR models
+- Understand different IR Searching techniques
+
 ## IR SEARCHING TECHNIQUES
 
 -   In bibliographic IR environment, searches can be divided into two
