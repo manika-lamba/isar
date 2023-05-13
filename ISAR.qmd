@@ -39,6 +39,8 @@ editor:
 -   Explain the components of ISAR system
 -   Uses of ISAR system in libraries and information centres
 
+# Information Storage and Retrieval System (ISAR) {background-color="#438496"}
+
 ## ISAR
 
 ### Definition 1
@@ -235,11 +237,12 @@ using B-tree structures.
     -   use of clustering algorithms
     -   use of soundex and metaphone algorithms
 
-## TYPES OF SEARCH TECHNIQUES
+## ISAR COMPONENTS (Cont.)
 
 ::: columns
 ::: {.column width="50%"}
-1.  **Boolean Operators**
+3.  Search Agent
+    A.  **Boolean Operators**
 
 -   Three Boolean operators are AND, OR and NOT
 
@@ -254,9 +257,9 @@ using B-tree structures.
 :::
 :::
 
-## TYPES OF SEARCH TECHNIQUES (Cont.)
+## ISAR COMPONENTS (Cont.)
 
-2.  **Context Setting**
+B.  **Context Setting**
 
 -   It requires content analysis of document
 
@@ -269,7 +272,7 @@ using B-tree structures.
         that a certain document is about *freedom* then one should look
         for the related words like *liberation, independence*, etc.
 
-## TYPES OF SEARCH TECHNIQUES (Cont.)
+## ISAR COMPONENTS (Cont.)
 
 b.  Relational Analysis: It goes one step further by examining the
     relationships among concepts in a text. In relational analysis we
@@ -279,13 +282,13 @@ b.  Relational Analysis: It goes one step further by examining the
 
 <!-- -->
 
-3.  **Clustering Algorithms**
+C.  **Clustering Algorithms**
 
 -   Clustering is a method by which large sets of data is grouped into
     groups or clusters of smaller sets of similar data based on some
     characteristics
 
-## TYPES OF SEARCH TECHNIQUES (Cont.)
+## ISAR COMPONENTS (Cont.)
 
 -   It attempts to identify natural groups of components or data based
     on some similarity in a given population.
@@ -301,13 +304,13 @@ b.  Relational Analysis: It goes one step further by examining the
 -   To determine cluster membership and size, most algorithms evaluate
     the distance between each entity or data and the cluster centroids
 
-## TYPES OF SEARCH TECHNIQUES (Cont.)
+## ISAR COMPONENTS (Cont.)
 
 -   Statistical techniques are used for generating clusters as output
 
 ![](images/clustering.png){fig-align="center" width="1000"}
 
-## TYPES OF SEARCH TECHNIQUES (Cont.)
+## ISAR COMPONENTS (Cont.)
 
 4.  Soundex & Metaphone Algorithms
 
@@ -421,32 +424,74 @@ based on:
 
 ## EXAMPLES OF ISAR SYSTEMS
 
-1. OPAC: Library catalogue has changed its form to the electronic form with the advent of computerisation called OPAC. OPAC provides access to the documents by different approaches of
-users, such as Author, Collaborator, Title, Subject, Keyword, etc. An OPAC is
-built on DBMS
-2. Digital Library: OPAC only provides bibliographic details not full-text information. This limitation led to development of full-text databases in
-digital form. This kind of database is known as Digital Library. Digital libraries
-are available over network often using World Wide Web
+1.  OPAC: Library catalogue has changed its form to the electronic form
+    with the advent of computerisation called OPAC. OPAC provides access
+    to the documents by different approaches of users, such as Author,
+    Collaborator, Title, Subject, Keyword, etc. An OPAC is built on DBMS
+2.  Digital Library: OPAC only provides bibliographic details not
+    full-text information. This limitation led to development of
+    full-text databases in digital form. This kind of database is known
+    as Digital Library. Digital libraries are available over network
+    often using World Wide Web
 
 ## EXAMPLES OF ISAR SYSTEMS (Cont.)
 
-3. Search Engines: WWW is itself is a big source of information. Almost everything and anything
-can be found over Internet. Search Engines provide a kind of interface for users to search the web. A Search Engine basically has three components:
+3.  Search Engines: WWW is itself is a big source of information. Almost
+    everything and anything can be found over Internet. Search Engines
+    provide a kind of interface for users to search the web. A Search
+    Engine basically has three components:
 
-   - Web Crawler
-   - Database
-   - Agent
+    -   Web Crawler
+    -   Database
+    -   Agent
 
 ## EXAMPLES OF ISAR SYSTEMS (Cont.)
 
-- Web Crawler goes to each and every site over Internet and indexes each word present in the page or sometimes few lines from the page. This index is stored in search engines database with corresponding URL (Uniform Resource Locator). When a search query is given it searches in databases of search engine and result is generated
+-   Web Crawler goes to each and every site over Internet and indexes
+    each word present in the page or sometimes few lines from the page.
+    This index is stored in search engines database with corresponding
+    URL (Uniform Resource Locator). When a search query is given it
+    searches in databases of search engine and result is generated
 
-- Search Engines can be categorised into three main types:
+-   Search Engines can be categorised into three main types:
 
-    - Individual Search Engines - text or image based search engine, for example, Google (www.google.com)
-    
+    -   Individual Search Engines -- text or image based search engine,
+        for example, Google (www.google.com)
+
 ## EXAMPLES OF ISAR SYSTEMS (Cont.)
 
-- Search Engines
-     - Subject Directories - subject-based search engines, for example, Yahoo! (www.yahoo.com)
-     - Meta-search Engines - search engine of search engines, for example, Askjeeves (www.askjeeves.com)
+-   Search Engines
+    -   Subject Directories -- subject-based search engines, for
+        example, Yahoo! (www.yahoo.com)
+    -   Meta-search Engines -- search engine of search engines, for
+        example, Askjeeves (www.askjeeves.com)
+
+# INFORMATION RETRIEVAL {background-color="#438496"}
+
+## IR SEARCHING TECHNIQUES
+
+-  In bibliographic IR environment, searches can be divided into two main classes: 
+
+(i) **Known item search** is the one where the user knows something about the item being sought such as  author, title, publisher, ISBN, etc.
+
+(ii) **Unknown item search** is the one where users are not aware of the existence of any document that may solve their problems.
+
+## INFORMATION RETRIEVAL MODELS
+
+1.  
+
+## PREVIOUS YEAR QUESTIONS
+
+Q1: Explain the various components of ISAR
+
+Q2: Discuss with suitable examples the various types of search
+techniques
+
+Q3: Explain the need for evaluation of ISAR. Examine, by giving
+examples, the criteria which will be used for its evaluation
+
+#### Short Notes
+
+-   Precision & Recall
+-   Evaluation of IRS
+-   Information Retrieval Models
