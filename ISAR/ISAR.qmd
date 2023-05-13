@@ -1,0 +1,193 @@
+---
+title: Information Storage and Retrieval System (ISAR) -  Types, Operations, & Design
+subtitle: |
+  **[Paper-M-108]{.orange}**
+author: |
+  [Dr. Manika Lamba](https://manika-lamba.github.io)
+date: '14th May 2023'
+slide-number: true
+#footer: |
+#  **[Download Material](https://github.com/manika-lamba/SOL)**
+# uncomment for French presentations:
+#lang: fr
+# for blind readers:
+#slide-tone: true
+# for @olevitt:
+chalkboard: # press the B key to toggle chalkboard
+  theme: whiteboard
+# uncomment to use the multiplex mode:
+#multiplex: true
+format:
+  # pick the light mode (onyxia-revealjs) or the dark mode (onyxia-dark-revealjs)
+  onyxia-revealjs:
+    #incremental: true   
+  #onyxia-dark-revealjs:
+    output-file: index.html
+# visual editor configuration:
+editor:
+  render-on-save: true
+---
+
+## What Will You Learn - Part A? {background-color="#438496"}
+
+- Define Information Storage and Retrieval System (ISAR)
+- Know Different Types of ISAR
+- Understand knowledge representation aspects of ISAR system designed according
+to information requirements
+- Explain the components of ISAR system
+- Uses of ISAR system in libraries and information centres
+
+## ISAR
+
+### Definition 1
+
+According to Sparck Jones an Information Retrieval System is a set of rules and procedures, for performing some or all of the following operations:
+
+a)  Indexing (or constructing of representations of document)
+
+b)  Search formulation (or constructing of representations of information needs)
+
+c)  Searching (or matching representations of documents against representations of needs)
+
+d)  Index language construction (or generation of rules of representation)
+
+## ISAR (Cont.)
+
+### Definition 2
+
+-   According to Kowalski "An information retrieval system is a system that is capable of storage, retrieval and maintenance of information. Information in this context can be composed of text (including numeric and date data), images, audio, video and other multi-media objects. Although the form of an object in an IRS is diverse, the text aspect has been the only data type that lent itself to full functional processing. Other data types have been treated as highly informative sources but are primarily linked for retrieval based upon search of the text".
+
+## ISAR PURPOSE/OBJECTIVES
+
+::: columns
+::: {.column width="50%"}
+
+1. **Information Facilitator**: 
+It should act as facilitator between information contained in the document & the user
+
+2. **Non-Ambiguous**: 
+Ambiguity of information is avoided so that search result is free from any kind of ambiguity
+:::
+
+
+::: {.column width="50%"}
+
+3. **Minimum Time**: System should be so designed that minimum effort and time are spent to interrogate the system
+4. **User-Friendliness**: ISAR should have user friendly interface. The important aspects of ISAR should be highlighted
+:::
+:::
+
+## ISAR FEATURES
+
+::: columns
+::: {.column width="50%"}
+1. Competence and compatibility for consolidated searching and retrieval of information from any client terminal from any database within the system
+
+2. It should be able to narrowcast or broadcast or relate the information need in a variety of associations to get optimum retrieval performance
+
+
+:::
+
+
+::: {.column width="50%"}
+3. It should have access facilities at multi-points
+4. It should have common command language facility to retrieve info. from several databases of the system
+
+5. It should be able to handle info. access from entity-related or object-oriented approaches
+:::
+:::
+
+
+## ISAR FEATURES (Cont.)
+
+6. It should have the ability to select, classify, process and consolidate the analysed
+information into a cohesive text ready for assimilation by the end-users
+7. It should have ability to orient the information to specialist needs of the users from time to time. This calls for understanding the processing of user profiles
+8. It should be able to retrieve maximum information with minimum number of clues. The fuzzy approaches of end-users must be able to get clarified and ultimate result
+should provide satisfaction to the searcher
+9. It should have capacity to interchange the information available in one database or
+another for purposes of retrieval relevance end usage
+
+## ISAR FEATURES (Cont.)
+10. It should have bibliographic data interchange capacity (using Z39.50 or similar standard) to meet consolidation to a chosen format for networking and other purposes. Compatibility with standards at all levels must be the goal
+11. It should have ability to search simple information quickly in an easy manner and also have the ability to multi-track the complex questions and present them in a
+simple easy manner. User-friendly presentations are very important.
+
+
+## ISAR COMPONENTS
+
+::: columns
+::: {.column width="50%"}
+F.W Lancaster (1979) mentioned that information retrieval system comprises six major subsystem:
+
+1.  Document subsystem
+2.  Indexing subsystem
+3.  Vocabulary subsystem
+4.  Searching subsystem
+5.  User system interface
+6.  Machine subsystem
+:::
+
+::: {.column width="50%"}
+These sub-systems are utilised in the performance of the following activities:
+
+-   information resource building,
+-   database creation and maintenance, and
+-   information retrieval and dissemination
+:::
+:::
+
+## ISAR FUNCTIONS
+
+::: columns
+::: {.column width="50%"}
+- IR system is considered to have the function of "leading the user to those documents that will best enable him/her to satisfy his/her need for information" (Lancaster, 1979)
+- Information is stored in natural language texts, and the mechanism used to represent the texts include both controlled &
+
+:::
+
+
+::: {.column width="50%"}
+![](images/functions.png){fig-align="center" width="1000"}
+uncontrolled vocab. which separately or in combination constitute the
+indexing language
+:::
+:::
+
+## TYPES OF ISAR SYSTEMS
+
+1. Database Management System (DBMS) 
+- It deals with data storage, maintenance and retrieval and is used to keep control and
+manipulate data within the database
+
+- It has the definite structure of the stored information, instead of dealing with natural language text
+
+- In DBMS, normally files of data are described by a small set of pre-specified attributes. Each attribute carries some kind of value in it.
+
+For example: Records of books' authors, title, publisher, year, etc
+
+
+## TYPES OF ISAR SYSTEMS (Cont.)
+
+- Therefore, a DBMS can be defined as set of records and each record contains fields (attributes) which in turn contain data (value). A database may contain textual, numeric, statistical and graphical information
+
+- OPAC is a kind of DBMS often built of some kind of Bibliographic Database Management Systems (BDBMS)
+
+2. Text Retrieval System
+
+- They are designed for unstructured data
+such as full text documents
+
+- Queries are usually language based on keywords and a number of advanced search techniques (such as proximity search)
+can be used
+
+
+## TYPES OF ISAR SYSTEMS (Cont.)
+
+3. Management Information System (MIS)
+
+- 
+
+
+
+
