@@ -188,35 +188,52 @@ activities:
 
 ## ISAR COMPONENTS (Cont.)
 
-(i) Knowledge Representation
-    a.  Semantic Network Knowledge Representation - A semantic network
-        contains points called nodes connected by links called as arcs
-    b.  Frame Based Knowledge Representation - It is and object-oriented
-        approach. A *frame* represents an object (document or
-        information) or class of objects and are stored in *slots*
-    c.  Rule-Based Knowledge Representation - Rules provide a formal way
-        of representing recommendations, directives, or strategies.
-        Rules are appropriate when the domain knowledge results from
-        empirical associations developed through years of experience in
+(i) **Knowledge Representation**
+    a.  [*Semantic Network Knowledge*]{.underline}
+        [*Representation*]{.underline} - A semantic network contains
+        points called nodes connected by links called as arcs
+
+    b.  [*Frame Based Knowledge Representation*]{.underline} - It is and
+        object-oriented approach. A *frame* represents an object
+        (document or information) or class of objects and are stored in
+        *slots*
+
+    c.  [*Rule-Based Knowledge Representation*]{.underline} - Rules
+        provide a formal way of representing recommendations,
+        directives, or strategies
 
 ## ISAR COMPONENTS (Cont.)
 
-solving problems in a given area. Rules are expressed in the form of
-IF-THEN statements. In a rule based expert system, the domain knowledge
-is represented as a set of rules that are checked against a collection
-of facts or knowledge about the current situation. When the IF portion
-of the rule is satisfied by the facts, the action specified by the THEN
-portion is performed. When the condition is satisfied the rule is said
-to 'fire' or 'execute'. A rule interpreter is used to compare the IF
-portions of rules with the facts and execute the rule whose IF portion
-matches the facts.
+::: columns
+::: {.column width="50%"}
+\- Rules are appropriate when the domain knowledge results from
+empirical associations developed through years of experience in solving
+problems in a given area
+
+\- Rules are expressed in the form of IF-THEN statements
+
+\- Domain knowledge is represented as a set of rules that are checked
+against a collection of facts about current situation
+:::
+
+::: {.column width="50%"}
+\- When the IF portion of the rule is satisfied by the facts, the action
+specified by the THEN portion is performed
+
+\- When the condition is satisfied the rule is said to 'fire' or
+'execute'
+
+\- A rule interpreter is used to compare the IF portions of rules with
+the facts and execute the rule whose IF portion matches the facts
+:::
+:::
 
 ## ISAR COMPONENTS (Cont.)
 
-(ii) Indexing & clustering - Many system follow a kind of keyword
-     indexing. Keyword indexes are sometimes good in recall not
-     inprecision and in some cases vice-versa.Such indexes fail in
-     preserving the context of search term. Eg. World Wide Web
+(ii) **Indexing & clustering** - Many system follow a kind of keyword
+     indexing. Keyword indexes are sometimes good in recall not in
+     precision and in some cases vice-versa. Such indexes fail in
+     preserving the context of search term. E.g. World Wide Web
 
 Efforts have made in this direction such as using clustering techniques
 like keyword clustering to attach semantics with a keyword. In such a
@@ -227,7 +244,7 @@ using B-tree structures.
 
 ## ISAR COMPONENTS (Cont.)
 
-3.  Search Agent - It is a program which takes input from Search
+3.  **Search Agent -** It is a program which takes input from Search
     Interface and searches in the Knowledge Base using existing index.
 
 -   A good ISAR system means efficient retrieval. Thus, a good search
@@ -241,7 +258,7 @@ using B-tree structures.
 
 ::: columns
 ::: {.column width="50%"}
-3.  Search Agent
+3.  **Search Agent**
     A.  **Boolean Operators**
 
 -   Three Boolean operators are AND, OR and NOT
@@ -266,19 +283,20 @@ B.  **Context Setting**
 -   It can be done manually or automatically to preserve the context of
     each term in the index. It can be done in two ways:
 
-    a.  Conceptual Analysis: It is the frequency of concepts. Concept
-        can be represented by texts as well as pictures where text is
-        very common. For example, if one is analyzing with a hypothesis
-        that a certain document is about *freedom* then one should look
-        for the related words like *liberation, independence*, etc.
+    a.  [*Conceptual Analysis:*]{.underline} It is the frequency of
+        concepts. Concept can be represented by texts as well as
+        pictures where text is very common. For example, if one is
+        analyzing with a hypothesis that a certain document is about
+        *freedom* then one should look for the related words like
+        *liberation, independence*, etc.
 
 ## ISAR COMPONENTS (Cont.)
 
-b.  Relational Analysis: It goes one step further by examining the
-    relationships among concepts in a text. In relational analysis we
-    look for what are the related words appearing next to the word in
-    question. For example, to see what are the words that appear next to
-    "freedom" and then determine the related concepts
+b.  [*Relational Analysis:*]{.underline} It goes one step further by
+    examining the relationships among concepts in a text. In relational
+    analysis we look for what are the related words appearing next to
+    the word in question. For example, to see what are the words that
+    appear next to "freedom" and then determine the related concepts
 
 <!-- -->
 
@@ -312,7 +330,7 @@ C.  **Clustering Algorithms**
 
 ## ISAR COMPONENTS (Cont.)
 
-4.  Soundex & Metaphone Algorithms
+4.  **Soundex & Metaphone Algorithms**
 
 -   Both these algorithms are based in the way pronunciation of a word
     is made
@@ -345,7 +363,7 @@ language
 
 ## TYPES OF ISAR SYSTEMS
 
-1.  Database Management System (DBMS)
+1.  **Database Management System (DBMS)**
 
 -   It deals with data storage, maintenance and retrieval and is used to
     keep control and manipulate data within the database
@@ -369,7 +387,7 @@ For example: Records of books' authors, title, publisher, year, etc
 -   OPAC is a kind of DBMS often built of some kind of Bibliographic
     Database Management Systems (BDBMS)
 
-2.  Text Retrieval System
+2.  **Text Retrieval System**
 
 -   They are designed for unstructured data such as full text documents
 
@@ -378,13 +396,13 @@ For example: Records of books' authors, title, publisher, year, etc
 
 ## TYPES OF ISAR SYSTEMS (Cont.)
 
-3.  Management Information System (MIS)
+3.  **Management Information System (MIS)**
 
 -   It is a DBMS designed to cope up with the needs of management
     professionals who need to have information about different
     alternatives related to their interest to facilitate their work
 
-4.  Decision Support System (DSS)
+4.  **Decision Support System (DSS)**
 
 -   DSS helps top-level management in arriving at decisions. There is
     very little difference between MIS & DSS. The former generated
@@ -393,7 +411,7 @@ For example: Records of books' authors, title, publisher, year, etc
 
 ## TYPES OF ISAR SYSTEMS (Cont.)
 
-5.  Knowledge Based System (KBS)
+5.  **Knowledge Based System (KBS)**
 
 -   Specialized computer programs, modeled in the same way as human
     experts tackle problems and arrive at solutions are called Expert
@@ -424,11 +442,12 @@ based on:
 
 ## EXAMPLES OF ISAR SYSTEMS
 
-1.  OPAC: Library catalogue has changed its form to the electronic form
-    with the advent of computerisation called OPAC. OPAC provides access
-    to the documents by different approaches of users, such as Author,
-    Collaborator, Title, Subject, Keyword, etc. An OPAC is built on DBMS
-2.  Digital Library: OPAC only provides bibliographic details not
+1.  **OPAC:** Library catalogue has changed its form to the electronic
+    form with the advent of computerisation called OPAC. OPAC provides
+    access to the documents by different approaches of users, such as
+    Author, Collaborator, Title, Subject, Keyword, etc. An OPAC is built
+    on DBMS
+2.  **Digital Library:** OPAC only provides bibliographic details not
     full-text information. This limitation led to development of
     full-text databases in digital form. This kind of database is known
     as Digital Library. Digital libraries are available over network
@@ -436,10 +455,10 @@ based on:
 
 ## EXAMPLES OF ISAR SYSTEMS (Cont.)
 
-3.  Search Engines: WWW is itself is a big source of information. Almost
-    everything and anything can be found over Internet. Search Engines
-    provide a kind of interface for users to search the web. A Search
-    Engine basically has three components:
+3.  **Search Engines:** WWW is itself is a big source of information.
+    Almost everything and anything can be found over Internet. Search
+    Engines provide a kind of interface for users to search the web. A
+    Search Engine basically has three components:
 
     -   Web Crawler
     -   Database
@@ -455,16 +474,16 @@ based on:
 
 -   Search Engines can be categorised into three main types:
 
-    -   Individual Search Engines -- text or image based search engine,
-        for example, Google (www.google.com)
+    -   [*Individual Search Engines*]{.underline} -- text or image based
+        search engine, for example, Google (www.google.com)
 
 ## EXAMPLES OF ISAR SYSTEMS (Cont.)
 
 -   Search Engines
-    -   Subject Directories -- subject-based search engines, for
-        example, Yahoo! (www.yahoo.com)
-    -   Meta-search Engines -- search engine of search engines, for
-        example, Askjeeves (www.askjeeves.com)
+    -   [*Subject Directories*]{.underline} -- subject-based search
+        engines, for example, Yahoo! (www.yahoo.com)
+    -   [*Meta-search Engines*]{.underline} -- search engine of search
+        engines, for example, Askjeeves (www.askjeeves.com)
 
 # INFORMATION RETRIEVAL {background-color="#438496"}
 
@@ -482,14 +501,14 @@ based on:
 
 ## IR SEARCHING TECHNIQUES (Cont.)
 
-1.  Exact Match Search: The search engine will only match query terms
-    exactly; it does not allow for truncation, wildcards, or stemming.
-    Exact Match option is nowadays available in Internet-based databases
-    to retrieve more relevant information. Phrase search can be
-    characterized as exact match search, where a phrase is given at the
-    search query that searches whole phrase.
+1.  **Exact Match Search:** The search engine will only match query
+    terms exactly; it does not allow for truncation, wildcards, or
+    stemming. Exact Match option is nowadays available in Internet-based
+    databases to retrieve more relevant information. Phrase search can
+    be characterized as exact match search, where a phrase is given at
+    the search query that searches whole phrase.
 
-2.  Best Match Search: In best match search, the search engine will
+2.  **Best Match Search:** In best match search, the search engine will
     match query terms closely, if not exactly. It may allow for
     truncation, wildcards, or stemming. Best Match search is performed,
     when exact match could not fetch sufficient number of relevant
@@ -499,7 +518,7 @@ based on:
 
 ::: columns
 ::: {.column width="50%"}
-3.  Partial Match Search: A partial match is one that matches one or
+3.  **Partial Match Search:** A partial match is one that matches one or
     more characters at the end of the text input, but did not match all
     of the regular expression, although, it may have done so had more
     input been available. Partial matches are typically used when either
@@ -518,7 +537,7 @@ memory.
 -   On the basis of input and the output, Information Retrieval Models
     can be grouped into three basic categories:
 
-1.  Data Retrieval Model
+1.  **Data Retrieval Model**
 
 -- Data retrieval model essentially handles data
 
@@ -540,7 +559,7 @@ Therefore, the expression of information need should be very precise
 retrieval needing specific matching techniques viz., a taxonomic
 structure of the various entities involved and their properties.
 
-2.  Information Retrieval Model
+2.  **Information Retrieval Model**
 
 -- Information is data oriented to a purpose
 
@@ -565,7 +584,7 @@ database structure using some associative mathematics
 information retrieval model must incorporate such facilities and
 interfaces
 
-3.  Knowledge Retrieval Model
+3.  **Knowledge Retrieval Model**
 
 -- Knowledge is a kind of integration of general types of information
 
@@ -585,13 +604,13 @@ and problem solving, intelligent knowledge based IR models are coming up
 
 ## IR MODELS BASED ON THEORIES & TOOLS
 
-1.  Boolean Retrieval Model
+1.  **Boolean Retrieval Model**
 
     -   Standard
     -   Weighted: Weighting is the process of assigning an importance to
         an index term's use in an item
 
-2.  Fuzzy Logic Model
+2.  **Fuzzy Logic Model**
 
 -- ISAR has software component that has the features and functions
 required to manipulate 'information' items
@@ -643,13 +662,95 @@ erroneous characters
 
 ## IR MODELS BASED ON..(Cont.)
 
-3.  Vector Space Model
+3.  **Vector Space Model**
 
 -- It represents the documents & queries as vectors in a
 multidimensional space, whose dimensions are the terms used to build an
 index to represent the documents
 
 ![](images/vector.png){fig-align="center"}
+
+## IR MODELS BASED ON..(Cont.)
+
+4.  **Probabilistic Retrieval Model**
+
+-- Bayesian approach is the most successful in this model
+
+-- This approach is natural to information systems and is based upon the
+theories of evidential reasoning (drawing conclusions from evidence)
+
+-- It could be applied as part of index term weighting, but usually is
+applied as part of the retrieval process by calculating the relationship
+between an item and a specific query
+
+-- Probabilities are usually based upon a binary condition -- an item is
+relevant or not
+
+## IR MODELS BASED ON..(Cont.)
+
+-- But in information systems the relevance of an item is a continuous
+function from non-relevant to absolutely useful
+
+-- The output ordering by rank of items based upon probabilities, even
+if accurately calculated, may not be as optimal as that defined by some
+domain specific heuristic
+
+-- The source of the problems that arise in application of probability
+theory come from a lack of accurate data and simplifying assumptions
+that are applied to the mathematical model
+
+## IR MODELS BASED ON..(Cont.)
+
+::: columns
+::: {.column width="50%"}
+5.  **Linguistic Model**
+
+-- In linguistic model for IR, IR are studied from the point of view of
+properties of language
+
+-- IR is provided by features of natural language as well as artificial
+language
+
+-- Languages carry three types of functions:
+:::
+
+::: {.column width="50%"}
+i)  They represent the contents of documents and other forms of
+    information
+
+ii) The information problem of users are represented in terms of
+    language
+
+iii) Language is used in computer processing and in searching and
+     retrieving of information
+:::
+:::
+
+## IR MODELS BASED ON..(Cont.)
+
+The language works on three bases:
+
+a)  [Semantic basis]{style="color: blue;"} which conveys meaning from one human being to another
+
+b)  [Syntactic]{style="color: blue;"} basis which helps formation of semantics in the use of grammar
+
+c) [Vocabulary]{style="color: blue;"}, which supply different meaning to terms for formation of sentences, paragraphs and other structures
+
+-- The logical structure of a language and the taxonomy of the languages refers to relationship between vocabulary and concepts
+
+## IR MODELS BASED ON..(Cont.)
+
+-- The vocabulary generally refers to the logical structure
+
+-- Vocabulary control also include thesaural control and technical
+glossary control
+
+-- Use of transformational grammar as well as parsing techniques provide processing speed of the language for IR
+
+-- Further, indexing language with coordinative control provides a basic model for IR
+
+-- Use of associative mathematics in search logic and in search
+expression formulation, provide yet another type of language control in IR
 
 ## PREVIOUS YEAR QUESTIONS
 
