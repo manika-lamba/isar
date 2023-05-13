@@ -593,11 +593,9 @@ interfaces
 
 -- Knowledge is a kind of integration of general types of information
 
--- It normally occurs in the human mind. The human mind infers and
-integrates several coordinates with the information received by it
+-- It normally occurs in the human mind. The human mind infers and integrates several coordinates with the information received by it
 
--- Knowledge is assimilated information. To facilitate decision-making
-and problem solving, intelligent knowledge based IR models are coming up
+-- Knowledge is assimilated information. To facilitate decision-making and problem solving, intelligent knowledge based IR models are coming up
 
 ## IR MODELS (Cont.)
 
@@ -655,7 +653,7 @@ automatically include the following words from the information database:
 :::
 
 ::: {.column width="50%"}
--- system that accepts items that have been optical character recognised
+system that accepts items that have been optical character recognised
 
 -- In OCR process, a hardcopy item is scanned into a binary image
 
