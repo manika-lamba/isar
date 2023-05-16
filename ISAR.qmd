@@ -33,10 +33,12 @@ editor:
 ## What Will You Learn - Part A? {background-color="#438496"}
 
 -   Define Information Storage and Retrieval System (ISAR)
--   Know Different Types of ISAR
--   Understand knowledge representation aspects of ISAR system designed
-    according to information requirements
+- Purpose of ISAR
+- Features of ISAR
 -   Explain the components of ISAR system
+- Functions of ISAR
+- Understand different types of ISAR systems
+- Evaluation of ISAR systems
 -   Uses of ISAR system in libraries and information centres
 
 # Information Storage and Retrieval System (ISAR) {background-color="#438496"}
@@ -489,8 +491,9 @@ based on:
 
 ## What Will You Learn - Part B? {background-color="#438496"}
 
-- Understand different IR models
+
 - Understand different IR Searching techniques
+- Understand different IR models
 
 ## IR SEARCHING TECHNIQUES
 
